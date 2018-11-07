@@ -9,6 +9,6 @@ public class TestController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public String hello() {
-        return "hello,Spring Boot";
+        return "hello,Spring Boot test";
     }
 }
