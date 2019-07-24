@@ -1,2 +1,8 @@
 server:
   port: 8761
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
