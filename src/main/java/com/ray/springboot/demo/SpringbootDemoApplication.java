@@ -7,7 +7,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication(scanBasePackages = "com.ray.springboot")
 @ServletComponentScan
-@EnableAutoConfiguration
 public class SpringbootDemoApplication {
 
 	public static void main(String[] args) {
